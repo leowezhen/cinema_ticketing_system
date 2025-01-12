@@ -12,4 +12,8 @@ $condb = mysqli_connect($hostname,$username,$password,$database_name);
 if (!$condb) {
     die("Connection to database error.");
 }
+else {
+    die("<script>alert('Connection to database successfully');</script>");
+}
+
 ?>

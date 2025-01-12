@@ -63,7 +63,7 @@ background: #2ecc71;
 </header>
 <body>
 <div class="container">
-<h3 style="font-size: 30; font-style: italic;">Member Register Form</h3>
+<h3 style="font-size: 30px; font-style: italic; margin-left: 20%;">Member Register Form</h3>
 
 
 <!-- Borang Pendaftaran Peserta baru -->
@@ -73,11 +73,9 @@ background: #2ecc71;
     <input type='text' name='PhoneNumber' required placeholder="Phone Number"><br>
     <input type='text' name='Email' required placeholder="Email Address"><br>
     <input type='password' name='Password' required placeholder="Password"><br>
-    <input type='password' required placeholder="Re-type Password"><br>
-    Date of Birth <input type='datetime-local' required><br>
-    I agree to abide by Globe's Terms & Conditions and Privacy Policy. <input type="checkbox" required><br>
+    <h6 style="color: white; ">Date of Birth &ensp;&ensp;<input type='date' name='DateofBirth' required><br></h6> <br>
+    <details><summary style="color: white; font-size: 20px;">I agree to abide by Globe's Terms & Conditions and Privacy Policy. </summary><p style="color: white; font-size: 15px;">By your concern you will sell your data to us Globe Cinema to do illegal stuff such as giving voucher and promotion to you.</p><input type="checkbox" required></h6><br>
     <input type='submit' value='Submit'>
-
 </form>
 </div>
 </body>
